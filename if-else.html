@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>If Else Statements</title>
+</head>
+<body>
+    <div id="container">
+
+    </div>
+</body>
+<script>
+    document.getElementById('container').style.color = "red";
+    var age =  5;
+    if(age<0){
+        document.getElementById('container').innerHTML = "INVALID AGE";
+        document.getElementById('container').style.color = "red";
+    }else if(age>0 && age<18){
+        document.getElementById('container').innerHTML = "CHILD";
+        document.getElementById('container').style.color = "blue";
+    
+    }else if(age>=18){
+        document.getElementById('container').innerHTML = "ADULT";
+        document.getElementById('container').style.color = "green";
+    }
+</script>
+</html>

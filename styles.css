@@ -1,0 +1,26 @@
+/* styles for tip calculator */
+body{
+    background: gainsboro;
+    font-family: helvetica;
+}
+.calculator{
+    width: 420px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+}
+h1{
+    text-align: center;
+   
+}
+button{
+    background: maroon;
+    padding: 10px;
+    color: white;
+}
+label{
+    font-weight: bold;
+}
+#tip{
+    font-size: 50px;
+}
